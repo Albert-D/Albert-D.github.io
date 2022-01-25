@@ -2,7 +2,7 @@
 layout: post
 title: "MathJax with Jekyll"
 date: 2021-01-16
-tags: [resources, jekyll]
+categories: [resources, jekyll]
 image: http://gastonsanchez.com/images/blog/mathjax_logo.png
 mathjax: true
 ---
