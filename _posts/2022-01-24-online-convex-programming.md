@@ -50,11 +50,25 @@ Then they propsoed a diﬀerent algorithm that performs suprisingly well,
 ### Section 3
 
 In this section, they establish that repeated games are online linear programming problems, and an application of our algorithm 
-is universally consistent.
+is universally consistent.  
+Firstly, they formulated a Repeated Game as an Online Linear Program, and used this Generalized Inﬁnitesimal Gradient Ascent 
+(GIGA) algorithm to solve the problem,
+
+![Algorithm 3](/assets/images/22-01-24-online-convex-programming/algorithm3_1.png)
+![Algorithm 3](/assets/images/22-01-24-online-convex-programming/algorithm3_2.png)
+
+and they prove that GIGA is universally consistent,
+
+![Lemma 1](/assets/images/22-01-24-online-convex-programming/lemma1.png)
 
 ### Section 4
 This section shows how one can naively translate algorithms for mixing experts into algorithms for online linear programs, 
-and online linear programming algorithms into algorithms for online convex programs. 
+and online linear programming algorithms into algorithms for online convex programs.  
+An **Online Linear Programming Algorithm** (OLPA) can be constructed from an **Expert Algorithm** (EA), as follows:
+
+![Algorithm 5](/assets/images/22-01-24-online-convex-programming/algorithm5.png)
+
+Then we can Convert an OLPA to an Online Convex Programming Algorithm in Exact way or in Approximate way.
 
 
 ## Weakness and improvement
