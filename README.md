@@ -16,6 +16,10 @@
 - [本博客模板常见问题 Q & A](https://mazhuang.org/2020/05/03/blog-template-qna/)。
 
 - 在本地预览博客效果可以参考 [Setting up your Pages site locally with Jekyll][2]。
+```
+bundle exec jekyll serve
+```
+
 
 ## 经验与思考
 
